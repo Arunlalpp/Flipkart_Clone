@@ -572,28 +572,6 @@
   justify-content: space-between;
   transition: 0.8s;
 }
-
-/* button.mobile-view-drop-down:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-  display: ;
-}
-button.mobile-view-drop-down
-{
-color: #444;
-cursor: pointer;
-padding: 18px;
-width: 100%;
-border: none;
-text-align: left;
-outline: none;
-font-size: 15px;
-transition: 0.4s;
-display: none;
-} */
 .mobile-view-drop-down span {
   font-size: 14px;
   font-weight: 500;
@@ -604,7 +582,6 @@ display: none;
 .accordion {
   cursor: pointer;
   padding: 18px;
-  /* width: 100%; */
   border: none;
   text-align: left;
   outline: none;
@@ -654,107 +631,310 @@ display: none;
   background: #fff;
   flex-grow: 1;
 }
-.flip-navigation
-{
+.flip-navigation {
   padding: 12px 16px 0;
   border-bottom: 1px solid #f0f0f0;
 }
-.top-home-navigation
-{
+.top-home-navigation {
   display: flex;
   cursor: pointer;
 }
-.navigation-text
-{
+.navigation-text {
   font-size: 12px;
   color: #878787;
   white-space: nowrap;
   display: flex;
   align-items: center;
 }
-.navigation-text:hover
-{
+.navigation-text:hover {
   color: #2874f0;
 }
-.navigation-text svg
-{
+.navigation-text svg {
   width: 0.3rem;
   margin: 0 5px;
   fill: #878787;
   transform: rotate(180deg);
 }
-.mi-mobile 
-{
+.mi-mobile {
   font-weight: 600;
   font-size: 16px;
-  margin-top: 8px; 
+  margin-top: 8px;
   display: inline-block;
   color: #212121;
 }
-.mobile-text-navigation
-{
+.mobile-text-navigation {
   display: flex;
   align-content: center;
   margin-top: 8px;
   border-bottom: 2px solid transparent;
 }
-.mobile-feature
-{
+.mobile-feature {
   font-size: 14px;
   color: #212121;
   padding: 8px 15px 4px 0;
   font-weight: 500;
-  font-family: Roboto,Arial,sans-serif !important;
+  font-family: Roboto, Arial, sans-serif !important;
   cursor: pointer;
 }
-.mobile-feature:hover
-{
-  color: #2874f0; 
+.mobile-feature:hover {
+  color: #2874f0;
 }
-.flip-mobiles
-{
+.flip-mobiles {
   padding: 24px 0 30px 24px;
+  display: block;
   position: relative;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
 }
-.mobile-svg
-{
-  max-width: 15%;
+.mobile-svg {
+  width: 150px;
+  height: 150px;
   display: block;
   margin: 0 22px;
 }
-.mobile-svg img
-{
+.mobile-svg img {
   width: 100%;
   display: block;
 }
-.mobile-bottom-text
-{
+.mobile-bottom-text {
   display: flex;
-  margin: 1rem 0;
+  margin-top: 3.8rem;
 }
-.end-text
-{
+.end-text {
   margin-left: 0.5rem;
   font-size: 14px;
   cursor: pointer;
   vertical-align: middle;
-  transition:all  0.3s;
+  transition: all 0.3s;
 }
-.end-text:hover
-{
+.end-text:hover {
   font-weight: 600;
 }
-.heart
-{
+.heart {
   position: absolute;
   top: 1.5rem;
-  left: 13.5rem;
+  left: 13rem;
   display: inline-block;
 }
-.heart svg
-{
+.heart svg {
   fill: #c2c2c2;
 }
+.mobile-right-text {
+  margin-left: 1.5rem;
+  cursor: pointer;
+  display: flex;
+}
+.mobile-name {
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+.mobile-right-text span:hover {
+  color: #2874f0;
+}
+.rating-text {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+}
+.text-inner {
+  line-height: normal;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 4px 2px 6px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  vertical-align: middle;
+  background-color: #388e3c;
+}
+.review {
+  color: #878787;
+  margin-left: 0.5rem;
+  font-size: 14px;
+}
+.mobile-specification {
+  margin-top: 0.8rem;
+}
+.spec-mobi::before {
+  content: "•";
+  color: #c2c2c2;
+  padding-right: 8px;
+  display: table-cell;
+}
+.spec-mobi {
+  color: #212121;
+  display: table;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.mobile-price {
+  margin-left: 12.8rem;
+}
+.mobile-total-price h5 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.price-offer {
+  text-decoration: line-through;
+  color: #878787;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.inner-text {
+  font-size: 13px;
+  margin-left: 0.5rem;
+  letter-spacing: -0.2;
+  color: #388e3c;
+}
+.offer {
+  display: flex;
+  align-items: center;
+}
+.offer-value {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.wrapper-text {
+  display: flex;
+  align-items: center;
+}
+.tomo h3 {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0;
+  color: #212121;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.mobile-svg-1 {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 22px;
+}
+.mobile-svg-1 img {
+  width: 58%;
+}
+.pagination-flip {
+  background: #fff;
+  display: block;
+  border-top: 1px solid #f0f0f0;
+  width: 100%;
+  cursor: pointer;
+}
+.page-flip {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.page-text {
+  font-size: 14px;
+  color: #212121;
+  line-height: 2;
+  font-weight: 500;
+}
+.page-numbers {
+  display: flex;
+  margin: 0 18rem;
+}
+.pagination-number {
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+  margin-top: 0.5rem;
+}
+.pagination-number-1 {
+  padding: 0 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #2874f0;
+  display: grid;
+  color: #fff;
+  font-weight: 500;
+  align-content: center;
+  font-size: 12px;
+}
+.next-text {
+  margin: 0 1rem;
+  color: #2874f0;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+.flip-right-button {
+  margin: 10px 0px 0px;
+  border-top: 10px solid #f0f0f0;
+  padding: 10px 0;
+  display: flex;
+}
+.left-col-text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #212121;
+}
+.box-text {
+  padding: 16px;
+  cursor: pointer;
+}
+.looking-text {
+  padding: 16px;
+}
+.container-text {
+  border-radius: 2px;
+  border: 1px solid #d7d7d7;
+  padding: 6px 28px;
+  margin-right: 8px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.main {
+  background: #f0f0f0;
+}
+.reviews-col {
+  max-width: 99%;
+  background: #fff;
+  margin: auto;
+}
+.lef-col-text 
+{
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.text-review
+{
+  font-size: 20px;
+  font-weight: 600;
+  color: #212121;
+}
+.col-right-img
+{
+  width: 200px;
+  margin: 15px 15px;
+  margin-left: 7rem;
+}
+.left-row-pic
+{
+  width: 150px;
+  height: 150px;
+}
+.left-row-pic img 
+{
+  max-width: 50%;
+}
+.col-row
+{
+  display: flex;
+}
+
+
+
+
+
+
 
 
 
