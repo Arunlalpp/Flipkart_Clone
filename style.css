@@ -898,49 +898,359 @@
   max-width: 99%;
   background: #fff;
   margin: auto;
+  border-bottom: 1px solid #f0f0f0;
 }
-.lef-col-text 
-{
+.lef-col-text {
   padding: 15px 20px;
   border-bottom: 1px solid #f0f0f0;
 }
-.text-review
-{
+.text-review {
   font-size: 20px;
   font-weight: 600;
   color: #212121;
 }
-.col-right-img
-{
-  width: 200px;
+.col-right-img {
   margin: 15px 15px;
   margin-left: 7rem;
 }
-.left-row-pic
-{
-  width: 150px;
-  height: 150px;
-}
-.left-row-pic img 
-{
+.left-row-pic img {
   max-width: 50%;
 }
-.col-row
+.image-right-text
 {
+  width: 30%;
+  margin-top: 1rem;
+}
+.col-row {
   display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.mobile-name {
+  font-size: 18px;
+  color: #212121;
+  font-weight: 500;
+}
+.border-rating
+{
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+.rating-four {
+  line-height: normal;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 4px 2px 6px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  vertical-align: middle;
+  background-color: #388e3c;
+}
+.rating-fonts
+{
+  color: #878787;
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+.price-font
+{
+  display: flex;
+  margin-top: 0.5rem;
+}
+.price-font span 
+{
+  font-size: 14px;
+  font-weight: 600;
+}
+.offer-price
+{
+  margin-left: 0.5rem;
+  color: #878787;
+  font-size: 13px;
+}
+.mobile-details
+{
+  list-style: none;
+  margin-top: 0.8rem;
+}
+.mobile-feat
+{
+  padding-bottom: 0.5rem;
+  font-size: 14px;
+  color: #212121;
+}
+.purchase-details
+{
+  margin-top: 1rem;
+  width: 30%;
+}
+.font-review
+{
+  color: #878787;
+  font-size: 14px;
+}
+.five-star
+{
+  line-height: normal;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 4px 2px 6px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  vertical-align: middle;
+  background-color: #388e3c;
+}
+.review-rate
+{
+  display: flex;
+  margin-top: 0.8rem;
+  align-items: center;
+}
+.five-text
+{
+  margin-left: 0.5rem;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 600;
+}
+.purchase-para
+{
+  font-size: 14px;
+  color: #212121;
+  overflow: hidden;
+  margin: 12px 0;
+  line-height: 1.4;
+}
+.end-text-2
+{
+  color: #2874f0;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.end-text-cus
+{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.cus-1
+{
+  color: #878787;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 0.5rem;
+}
+.buyer-text
+{
+  color: #878787;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.month-text
+{
+  color: #878787;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 0.5rem;
+}
+.recent-text
+{
+  width: 30%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.review-font
+{
+  font-size: 14px;
+  color: #878787;
+  font-weight: 500;
+  cursor: pointer;
+}
+.stars-rating
+{
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+.five-star-2
+{
+  line-height: normal;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 4px 2px 6px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 12px;
+  vertical-align: middle;
+  background-color: #388e3c;
+}
+.briliant
+{
+  font-size: 14px;
+  color: #212121;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.mob-quality
+{
+  margin-top: 0.8rem;
+}
+.pefomance
+{
+  font-size: 14px;
+  line-height: 1.4;
+  color: #212121;
+  overflow: hidden;
+}
+.last-update
+{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.nas
+{
+  color: #878787;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 0.5rem;
+}
+.days-text
+{
+  color: #878787;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.buy
+{
+  color: #878787;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 0.5rem;
+}
+.footer-1
+{
+  background-color: #f0f0f0;
+  border-top: 8px solid #f0f0f0;
+ 
+}
+.border-bottom-line
+{
+  border-bottom: 1px solid #454d5e;
+}
+.footer-menu
+{
+  background-color: #172337;
+  max-width: 100%;
+  margin-top: 2rem;
+  
+}
+.footer-content
+{
+  max-width: 90% !important;
+  margin: auto;
+  display: flex;
+  
+  
+}
+.footer-list
+{
+  list-style: none;
+  padding-top: 3rem;
+  width: 15%;
+}
+.footer-head
+{
+  font-size: 12px;
+  color: #878787;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.footer-list-content
+{
+  color: #fff;
+  font-size: 12px;
+  line-height: 2;
+}
+.footer-list-content:hover
+{
+  text-decoration: underline;
+}
+.footer-list-end
+{
+  padding-top: 3rem;
+  width: 25%;
+}
+.border-line
+{
+  border-left: 1px solid #ddd;
+  padding: 0 25px;
+}
+.footer-head-end
+{
+  color: #878787;
+  font-size: 12px;
+  font-weight: 600;
+}
+.footer-list-para
+{
+  
+  font-size: 12px;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+.footer-list-para a
+{
+  color: #2874f0;
+}
+.footer-cards
+{
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  /* padding: 25px 0; */
+}
+.flip-cards 
+{
+  text-align: left;
+}
+.card-text
+{
+  margin-left: 0.5rem;
+  color: #fff;
+  font-size: 14px;
+}
+.year-flip
+{
+  margin-left: 0.5rem;
+}
+.year-fonts
+{
+  color: #fff;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.flip-webi
+{
+  font-size: 14px;
+  color: #fff;
+  white-space: nowrap;
+}
 @media screen and (min-width: 340px) and (max-width: 1140px) {
   .flip-wrapper {
     height: 40px;
