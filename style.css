@@ -238,7 +238,7 @@
 .section-1 {
   width: 22%;
 }
-.heading {
+.wrapper-text {
   font-size: 13px;
   padding: 8px 0;
   color: #212121;
@@ -261,7 +261,7 @@
   color: #878787;
   font-size: 12px;
 }
-.section2-heading {
+.section2-wrapper-text {
   font-size: 13px;
   color: #212121;
   font-weight: 600;
@@ -1734,10 +1734,10 @@
   .footer-list-end {
     padding-top: 1rem;
   }
-  .section2-heading {
+  .section2-wrapper-text {
     font-size: 6px;
   }
-  .heading {
+  .wrapper-text {
     font-size: 5px;
   }
 }
@@ -1871,6 +1871,19 @@
     left: 0;
     right: 0;
   }
+  .mobile-wild-image-1 {
+    width: 200px;
+    display: block;
+    margin: 0 22px;
+  }
+  .mobile-wild-image-1 img {
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 1.5rem;
+  }
   .image-bottom-text {
     margin-top: 2rem;
   }
@@ -1970,11 +1983,10 @@
   border: 1px solid rgba(0, 0, 0, 0.14);
   display: grid;
   align-content: center;
-  top: 22%;
+  top: 15%;
   left: 92%;
   float: right;
-  position: absolute;
-  
+  position: absolute; 
 }
 .heart-fill svg
 {
@@ -1982,5 +1994,11 @@
   width: 1rem;
   margin-top: 4px;
   margin-left: 6px;
+}
+.circle-heart-1
+{
+  left: 92%;
+  position: absolute;
+  top: 5%;
 }
 }
